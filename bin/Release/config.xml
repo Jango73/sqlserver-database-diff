@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1</Version>
+  <ShowReportOnAnalyze>false</ShowReportOnAnalyze>
+  <HideUnmodifiedByDefault>false</HideUnmodifiedByDefault>
+  <AnalyzeTables>true</AnalyzeTables>
+  <AnalyzeViews>true</AnalyzeViews>
+  <AnalyzeProcedures>true</AnalyzeProcedures>
+  <AnalyzeFunctions>true</AnalyzeFunctions>
+  <AnalyzeData>true</AnalyzeData>
+  <Connection1>
+    <Host>localhost</Host>
+    <User />
+    <Pass />
+    <Name>db1</Name>
+    <WindowsAuth>true</WindowsAuth>
+  </Connection1>
+  <Connection2>
+    <Host>localhost</Host>
+    <User />
+    <Pass />
+    <Name>db2</Name>
+    <WindowsAuth>true</WindowsAuth>
+  </Connection2>
+  <Connection3>
+    <Host>localhost</Host>
+    <User />
+    <Pass />
+    <Name />
+    <WindowsAuth>true</WindowsAuth>
+  </Connection3>
+  <UpgradeAllowTableCreate>true</UpgradeAllowTableCreate>
+  <UpgradeAllowTableDrop>true</UpgradeAllowTableDrop>
+  <UpgradeAllowTableAlter>true</UpgradeAllowTableAlter>
+  <UpgradeAllowViewCreate>true</UpgradeAllowViewCreate>
+  <UpgradeAllowViewDrop>true</UpgradeAllowViewDrop>
+  <UpgradeAllowViewAlter>true</UpgradeAllowViewAlter>
+  <UpgradeAllowFieldCreate>true</UpgradeAllowFieldCreate>
+  <UpgradeAllowFieldDrop>true</UpgradeAllowFieldDrop>
+  <UpgradeAllowFieldAlter>true</UpgradeAllowFieldAlter>
+  <UpgradeAllowConstraintCreate>true</UpgradeAllowConstraintCreate>
+  <UpgradeAllowConstraintDrop>true</UpgradeAllowConstraintDrop>
+  <UpgradeAllowConstraintAlter>true</UpgradeAllowConstraintAlter>
+  <UpgradeAllowProcedureCreate>true</UpgradeAllowProcedureCreate>
+  <UpgradeAllowProcedureDrop>true</UpgradeAllowProcedureDrop>
+  <UpgradeAllowProcedureAlter>true</UpgradeAllowProcedureAlter>
+  <UpgradeAllowFunctionCreate>true</UpgradeAllowFunctionCreate>
+  <UpgradeAllowFunctionDrop>true</UpgradeAllowFunctionDrop>
+  <UpgradeAllowFunctionAlter>true</UpgradeAllowFunctionAlter>
+  <BackupPath>C:\Backups</BackupPath>
+</Configuration>
